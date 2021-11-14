@@ -51,7 +51,8 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
    return txt;
 	}
 	
-	``````
+
+``````
 
 	
 	#### Decode
@@ -72,12 +73,12 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 	txt=atob(x);
   return txt;
 	}
-	
-	
-``````
 
 
-####Ok
+
+
+
+###Ok
 
 Saya rasa dengan code javascript tersebut,kita bisa membuat sebuah teka-teki code sandi alogaritma pengolahan data.
 #Nb -
