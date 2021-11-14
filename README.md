@@ -38,7 +38,8 @@ untuk menghasilkan string yang disandikan, dan sesuatu seperti:
 Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 ### encode
 
-````
+
+```
 	function startencode(jadibhsmesin){
 		  //biar kagak kebaca
 		  var dbgaramone="garam";
@@ -50,7 +51,7 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
    txt=btoa(xx);
    return txt;
 	}
-	
+```
 
 
 # Decode
@@ -76,11 +77,13 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 ### Ex
 
 
-# Ok
-
 Saya rasa dengan code javascript tersebut,kita bisa membuat sebuah teka-teki code sandi alogaritma pengolahan data.
+
 #Nb -
+
  -Kita bisa menggunakan javascript dan php dengan fungsi yang sama untuk bisa melakukan komunikasi dan pertukaran data antara sisi client dan server menggunakan Encryption/Decryption.
+
  -Kurangnya dan lebihnya silahkan di koreksi dan di tambahkan.
- -Semoga bisa bermanfaat 
+ 
+-Semoga bisa bermanfaat.
  
