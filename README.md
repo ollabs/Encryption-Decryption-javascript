@@ -38,7 +38,7 @@ untuk menghasilkan string yang disandikan, dan sesuatu seperti:
 Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 ### encode
 
-```{
+<code>
 	function startencode(jadibhsmesin){
 		  //biar kagak kebaca
 		  var dbgaramone="garam";
@@ -51,11 +51,12 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
    return txt;
 	}
 	
-	```
+	</code>
 	
 	### Decode
 	
-	```
+	<code>
+
 	function startdecode(biarkebaca){
 	//dibalikin lagi biar terbaca
 		var dbgaramone="garam";
@@ -69,9 +70,9 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
   return txt;
 	}
 	
-	```
+	</code>
 
-}
+
 ##
 
 Saya rasa dengan code javascript tersebut,kita bisa membuat sebuah teka-teki code sandi alogaritma pengolahan data.
