@@ -31,14 +31,14 @@ untuk menghasilkan string yang disandikan, dan sesuatu seperti:
  dan untuk memecahkan kode nanti.
  
  ```
-  startdecode(data){
+  startdecode(data)
    ```
    
 
 Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 ### encode
 
-```
+```{
 	function startencode(jadibhsmesin){
 		  //biar kagak kebaca
 		  var dbgaramone="garam";
@@ -71,7 +71,7 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 	
 	```
 
-
+}
 ##
 
 Saya rasa dengan code javascript tersebut,kita bisa membuat sebuah teka-teki code sandi alogaritma pengolahan data.
