@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Encryption javascript</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!-- CSS stylesheet for example -->
+        <script src="encryption.js"></script>
+        <script src="jquery.min.js"></script>
+	
+		
+	  <style>
+		html,body{
+		margin:0;
+		padding:10px;
+		}
+		textarea{
+		margin:0;
+		width:100%;
+		height:70px;
+		}
+		.terima{
+		border:2px solid yellow;
+		}
+		.kirim{
+		border:2px solid blue;
+		}
+		.jalan{
+		border:2px solid red;
+		}
+		</style>
+    </head>
+    <body>
+	  <h4>Penerima</h4>
+	  <textarea class="terima" id="penerima" disabled></textarea>
+	  <button id="terimadata">Terima</button>
+	  <h4>Data dalam pengiriman</h4>
+	  <textarea class="jalan" id="jalan" disabled></textarea> 
+	  <h4>Pengirim</h4>
+	  <textarea class="kirim" id="pengirim"></textarea>
+	  <br>
+	  <button id="sending">Kirim</button>
+    </body>
+<script>
+		$(function(){	
+		$("#sending").click(function(){
+		var pengirim,perjalanan,penerima;
+		pengirim = $("#pengirim").val();
+		if(pengirim === ""){
+		alert("Jangan kosong!");
+		return false;
+		}
+		var siapkirim = startencode(pengirim);
+		$("#jalan").val(siapkirim);	
+		});
+			$("#terimadata").click(function(){
+			var jalan = $("#jalan").val();
+			if(jalan === ""){
+			alert("Tidak ada pengiriman data!");
+			return false;
+			}
+			var baca = startdecode(jalan);
+		$("#penerima").val(baca);	
+			});
+		});	
+</script>
+    </html>
