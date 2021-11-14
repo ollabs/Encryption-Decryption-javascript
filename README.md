@@ -52,10 +52,8 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 	}
 	
 
-```
 
-	
-	# Decode
+# Decode
 	
 	
 
@@ -73,9 +71,9 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 	txt=atob(x);
   return txt;
 	}
-
-
 ```
+
+### Ex
 
 
 # Ok
