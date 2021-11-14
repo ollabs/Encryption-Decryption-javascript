@@ -73,7 +73,7 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 	</code>
 
 
-##
+#### Ok
 
 Saya rasa dengan code javascript tersebut,kita bisa membuat sebuah teka-teki code sandi alogaritma pengolahan data.
 #Nb -
