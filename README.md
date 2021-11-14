@@ -52,14 +52,14 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 	}
 	
 
-``````
+```
 
 	
 	# Decode
 	
 	
 
-`````
+```
 
 	function startdecode(biarkebaca){
 	//dibalikin lagi biar terbaca
@@ -78,7 +78,7 @@ Berikut contoh code lengkap sederhana javascript yang akan kita buat:
 ```
 
 
-#Ok
+# Ok
 
 Saya rasa dengan code javascript tersebut,kita bisa membuat sebuah teka-teki code sandi alogaritma pengolahan data.
 #Nb -
